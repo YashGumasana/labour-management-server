@@ -1,0 +1,11 @@
+{
+    "Winston": {
+        "level": "info"
+    },
+    "timeZone": "Asia/Calcutta",
+    "nodeMail": {
+        "mail": "tubeviewb398@gmail.com",
+        "password": "zwhahckjlqulrsgz",
+        "service": "gmail"
+    }
+}
