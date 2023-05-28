@@ -3,12 +3,12 @@ import express from 'express'
 
 let dbUrl: any
 
-// if (process.env.NODE_ENV) {
-dbUrl = process.env.LOCAL_DB_URL
-// }
-// if (!process.env.NODE_ENV) {
-//     dbUrl = process.env.DB_URL
-// }
+if (process.env.NODE_ENV) {
+    dbUrl = process.env.LOCAL_DB_URL
+}
+if (!process.env.NODE_ENV) {
+    dbUrl = process.env.LOCAL_DB_URL
+}
 
 const mongooseConnection = express()
 
